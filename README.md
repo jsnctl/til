@@ -11,3 +11,4 @@ Roadsigns along the way (normally found after hours of strife)
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
 export CUDA_HOME=/usr/local/cuda
 ```
+* 16-02-18: If `SettingWithCopyWarning` is being a PITA with `pandas`, stick in `pd.options.mode.chained_assignment = None`
