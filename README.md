@@ -15,3 +15,4 @@ export CUDA_HOME=/usr/local/cuda
 ```
 pd.options.mode.chained_assignment = None
 ```
+* 21-11-18: `Docker`/`zsh` tab completion gist (https://gist.github.com/ro31337/b2c33ad0b90636e9e3bb76fb4fb76907)
