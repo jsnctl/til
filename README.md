@@ -18,3 +18,4 @@ pd.options.mode.chained_assignment = None
 * 21-11-18: `Docker`/`zsh` tab completion gist (https://gist.github.com/ro31337/b2c33ad0b90636e9e3bb76fb4fb76907)
 * 22-11-18: I had no idea that `~` and `$HOME` weren't 100% interchangable https://stackoverflow.com/questions/11587343/difference-between-home-and-tilde
 * 09-01-19: Removing a commit from history completely https://help.github.com/articles/removing-sensitive-data-from-a-repository/
+* 11-01-19: I have no idea how many times I've written my own version of `more_itertools.windowed`, but it's [been in there since v2.5(!)](https://more-itertools.readthedocs.io/en/latest/api.html#windowing)
