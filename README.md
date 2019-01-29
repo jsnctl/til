@@ -22,9 +22,9 @@ pd.options.mode.chained_assignment = None
 * 16-01-19: For `aws-cli` on a Mac, don't even both with the suggested `pip`-based install. `brew install awscli` works seamlessly
 * 18-01-19: Had no idea Postgres was [over 20 years old](https://www.postgresql.org/docs/current/history.html)! 
 * 29-01-19: Python's ternary operators can be really elegant
-```
+```python
 a = 5
 b = 'a < 5' if a < 5 else 'a >= 5'
 print(b)
-> a >= 5
+$ a >= 5
 ```
