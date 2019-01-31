@@ -28,3 +28,4 @@ b = 'a < 5' if a < 5 else 'a >= 5'
 print(b)
 $ a >= 5
 ```
+* 31-01-19: Always need to look this up: multi-instance edit in Sublime `cmd` + `ctrl` + `G`
