@@ -29,3 +29,4 @@ print(b)
 $ a >= 5
 ```
 * 31-01-19: Always need to look this up: multi-instance edit in Sublime `cmd` + `ctrl` + `G`
+* 24-07-19: Kill list of PIDs associated with an `lsof`/open files `lsof -i :port | awk 'NR>1{print $2}' | xargs kill -9`
