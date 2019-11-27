@@ -34,3 +34,4 @@ $ a >= 5
 lsof -i :port | awk 'NR>1{print $2}' | xargs kill -9
 ```
 * 28-08-19: [Build caching](https://medium.com/@aidobreen/using-docker-dont-forget-to-use-build-caching-6e2b4f43771e) of `Dockerfile`
+* 27-11-19: `itertools.groupby` works on contiguous items(!), you probably [need to sort first](https://docs.python.org/3/library/itertools.html#itertools.groupby)
