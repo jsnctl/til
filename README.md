@@ -36,3 +36,4 @@ lsof -i :port | awk 'NR>1{print $2}' | xargs kill -9
 * 28-08-19: [Build caching](https://medium.com/@aidobreen/using-docker-dont-forget-to-use-build-caching-6e2b4f43771e) of `Dockerfile`
 * 27-11-19: `itertools.groupby` works on contiguous items(!), you probably [need to sort first](https://docs.python.org/3/library/itertools.html#itertools.groupby)
 * 11-02-20: [`apply`: The convenience function you never needed](https://stackoverflow.com/a/54432584)
+* 27-02-20: [`py4j`](https://www.py4j.org/) is brilliant 
