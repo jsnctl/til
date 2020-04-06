@@ -37,4 +37,4 @@ lsof -i :port | awk 'NR>1{print $2}' | xargs kill -9
 * 27-11-19: `itertools.groupby` works on contiguous items(!), you probably [need to sort first](https://docs.python.org/3/library/itertools.html#itertools.groupby)
 * 11-02-20: [`apply`: The convenience function you never needed](https://stackoverflow.com/a/54432584)
 * 27-02-20: [`py4j`](https://www.py4j.org/) is brilliant 
-* 06-03-20: [Why is <x> named <x>?](https://wiki.debian.org/WhyTheName)
+* 06-03-20: [Why is _x_ named _x_?](https://wiki.debian.org/WhyTheName)
