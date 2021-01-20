@@ -40,3 +40,9 @@ lsof -i :port | awk 'NR>1{print $2}' | xargs kill -9
 * 06-03-20: [Why is _x_ named _x_?](https://wiki.debian.org/WhyTheName)
 * 28-09-20: Software is hard
 * 06-10-20: Installing `psycopg2` in OSX needs [some extra steps](https://blog.vince.id/installing-psycopg2-on-macos)
+* 20-01-21: `pytest-xdist` distributes a test suite across available cores
+```bash
+pip install pytest-xdist
+...
+pytest -n auto
+```
