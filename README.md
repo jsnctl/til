@@ -46,3 +46,4 @@ pip install pytest-xdist
 ...
 pytest -n auto
 ```
+* 15-02-21: The `ports` command in `docker-compose` opens the container port to everything outside of the network. Not good, get it tae fuck
