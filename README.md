@@ -47,4 +47,5 @@ pip install pytest-xdist
 pytest -n auto
 ```
 * 15-02-21: The `ports` command in `docker-compose` opens the container port to everything outside of the network. Not good, get it tae fuck
-* 10-11-201: Moving files to a new repo, [but maintaining git history](https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b)
+* 10-11-21: Moving files to a new repo, [but maintaining git history](https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b)
+* 11-05-22: `git checkout --theirs` accepts all incoming conflicts, `git checkout --ours` maintains conflicts on this branch
